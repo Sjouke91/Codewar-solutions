@@ -12,8 +12,6 @@ function humanReadable(seconds) {
     useGrouping: false,
   });
 
-  console.log(hours, minutes, sec);
-
   return `${hours}:${minutes}:${sec}`;
 }
 
